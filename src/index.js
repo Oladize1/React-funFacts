@@ -1,12 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Confetti from 'confetti-react'
-import Joke from './Components4/Joke'
-import './Components4/style.css'
+import Page2 from './Project1/Page2'
+
 function App(){
   return (
     <>
-    <Joke/>
+    <Page2/>
     </>
     )
 }
