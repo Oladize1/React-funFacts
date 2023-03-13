@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+
+main{
+  color:#74eb82;
+  height:100vh;
+}
+.box{
+  padding:15px;
+  border:2px solid cyan;
+  border-radius:4px;
+  width:100px;
+  height:100px;
+  display:inline-block;
+  margin:3px;
+}

@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+}
+
+.contact{
+  margin: 20px;
+  border:1px solid cyan;
+  border-radius:6px;
+  background-color:black;
+  color:#fff;
+  max-width:400px;
+  padding:15px;
+}
+.contact > h1{
+  text-align: left;
+  padding:10px;
+}
+.contact > p{
+  font-weight: 300;
+  text-align:left;
+  padding:10px;
+}
+img{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  margin:10px;
+  align-self: center;
+  justify-content: center;
+}
+.isFavorite {
+  border:2px solid cyan;
+  padding:10px;
+  margin:10px;
+  width:100%;
+  height:50px;
+  color:#fff;
+}

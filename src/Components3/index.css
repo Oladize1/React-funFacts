@@ -1,0 +1,97 @@
+* {
+   margin:0;
+   box-sizing:border-box;
+   font-family:  Sans-Serif;
+}
+
+img{
+  border-radius:10px;
+}
+
+/*---HEADER------*/
+.logo{
+  background-color:#ee3322;
+  box-sizing:border-box;
+  height:70px;
+  width:100%;
+  align-items: center;
+  justify-content:center;
+  display:flex;
+  flex-direction:row;
+  color:#fff;
+  font-family: Inconsolata;
+  padding:10px;
+}
+
+.logo-img{
+  width:50px;
+  height:40px;
+  align-items: center;
+  padding:10px;
+}
+
+.logo-title {
+  text-align:center;
+}
+/*------*/
+
+/*---BODY---*/
+
+section{
+  margin:10px;
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  padding-block:10px;
+  margin-block: 15px;
+  max-width: 500px;
+}
+.card-img{
+  padding-right:5px;
+}
+.card-img img{
+  width:200px;
+  height: 100%;
+  padding:10px;
+  border-radius:6px;
+}
+
+
+.card-details{
+  text-align:left;
+  width:250px;
+}
+
+.place{
+  font-weight: 500;
+  padding-right:16px;
+}
+
+.link a {
+  color:#000;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.title{
+  padding-block:15px;
+}
+
+.date{
+  padding-bottom: 7px;
+  font-weight:bold;
+  font-size:12px;
+}
+.expire-date{
+  padding-left: 10px;
+}
+
+/*----------*/

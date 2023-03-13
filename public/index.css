@@ -1,0 +1,84 @@
+*{
+  font-family: 'Inter', sans-serif;
+   margin:0;
+}
+body{
+  background-color:#282D35;
+  height: 100vh;
+  /*background-image: url('./../logo512.png');
+  background-repeat:no-repeat;
+  background-position: right top;*/
+  width:100vw;
+}
+
+nav{
+  display:flex;
+  align-items:center;
+  background-color:#21222A;
+  padding:45px;
+  margin:0 0 25px 0 ;
+  box-shadow: 0px 3px 7.5px  rgba(0,0,0,0.1 );
+}
+
+.nav-logo-name, .nav-element{
+  margin:0;
+}
+
+.nav-logo-name{
+  color:#61DAFB;
+  font-weight: 700;
+  font-size:22px;
+  margin-right:auto;
+}
+
+.nav-element{
+  color:#DEEBF8;
+  font-weight:600;
+}
+.nav-logo{
+  margin-right:7px;
+  height: 30px;
+}
+
+
+main{
+  padding:57px 27px;
+}
+.main-title{
+  margin: 0;
+  letter-spacing: -0.05em;
+  font-size:39px;
+}
+.main-cont{
+  max-width:400px;
+  margin-top:46px;
+}
+.main-cont > li{
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main-cont > li::marker{
+  color:#61DAFB;
+  font-size: 1.5rem;
+}
+/*nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+}
+img {
+  width:50px;
+  height:50px;
+}
+nav > h3 {
+  margin:0;
+  padding:10px 0;
+}
+*/
+/*.nav-items {
+  list-style: none;
+  display:flex;
+}
+.nav-items > li{
+  margin:10px;
+}*/
